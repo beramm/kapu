@@ -1,11 +1,13 @@
 .diss {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 650;
     font-family: 'PT Sans', sans-serif;
     left: 430px;
+    margin-left: 15px;
 }
-#pictAll{
-    padding: 4px 2px 4px 6px ;
+
+#pictAll {
+    padding: 4px 2px 4px 6px;
 }
 
 @media (max-width: 390px) {
@@ -19,6 +21,15 @@
         display: inline-block;
     }
 }
+
 .offcanvas {
     transition-duration: 0.4s;
-  }
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.dropdown-hover:hover {
+    display: block;
+}
