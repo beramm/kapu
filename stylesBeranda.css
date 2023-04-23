@@ -152,8 +152,7 @@ body {
 }
 
 .containers {
-    min-height: 280px;
-    max-height: 400px;
+    height: 330px;
     background-color: black;
     width: 100vw;
     padding: 0;
@@ -172,7 +171,8 @@ body {
     background-position: bottom center;
     filter: contrast(1.1);
     transform: translate3d(0px, 0px, 0px);
-    
+
+
 }
 
 .img::before {
@@ -195,7 +195,151 @@ body {
     text-align: center;
     color: white;
     font-family: 'Oswald', Arial;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 550;
+    margin-top: 15px;
     pointer-events: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-item-left {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    flex: 50%;
+    margin: 10px;
+}
+
+.flex-item-center {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 50%;
+    margin: 10px;
+
+}
+
+.flex-item-right {
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 50%;
+    margin: 10px;
+
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.line-container {
+    border-bottom: 1px solid black;
+    text-align: center;
+    max-width: 93%;
+    /* adjust the value as needed */
+    margin: 0 auto;
+}
+
+#visMis {
+    font-family: 'Merriweather', 'Arial';
+    font-size: 16pt;
+    vertical-align: baseline;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+style.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+footer{
+    position: absolute;
+    bottom: 110;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    color: #fff;
+    margin-top: 50px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 8px auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }

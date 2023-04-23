@@ -1,5 +1,5 @@
 .diss {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 650;
     font-family: 'PT Sans', sans-serif;
     left: 430px;
@@ -10,13 +10,13 @@
     padding: 4px 2px 4px 6px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 395px) {
     .diss {
         display: none;
     }
 }
 
-@media (min-width: 391px) {
+@media (min-width: 351px) {
     .diss {
         display: inline-block;
     }
@@ -33,3 +33,22 @@
 .dropdown-hover:hover {
     display: block;
 }
+.offcanvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    visibility: hidden;
+    background-color: #fff;
+    max-width: 70%; /* adjust the value as needed */
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .offcanvas.show {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  
+  
