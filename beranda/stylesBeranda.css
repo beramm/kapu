@@ -166,7 +166,7 @@ body {
 .img {
     height: 100%;
     width: 100%;
-    background-image: url('pict/auditorium.jpeg');
+    background-image: url('/kapu/kapu/pict/auditorium.jpeg');
     background-size: cover;
     background-position: bottom center;
     filter: contrast(1.1);
