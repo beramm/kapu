@@ -15,7 +15,7 @@
 
 <body>
     <!--https://lh5.googleusercontent.com/QezcQMg31046VcO0blxZDH5lNOJNx5Y1PCCHOKIlkuCl8jhwrpauxSUYXytXsf2csYQNupbN7UuI-FyVCOSAqmo=w16383-->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top" style="height: 70px; min-width: 220px;">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" style="height: 70px; min-width: 1100px;">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
             aria-controls="navbarOffcanvasLg" style="margin-left: 15px;">
@@ -35,11 +35,11 @@
                     style="margin-right: 10px;">
                     <li class="nav-item " style="margin-right: 10px;">
                         <a class="nav-link active" id="beranda-link" title="Click to see HomePage" aria-current="page"
-                            href="/kapu/kapu/beranda/berandaPage.html">Beranda</a>
+                            href="/kapu/kapu/beranda/BerandaPage.html">Beranda</a>
                     </li>
                     <li class="nav-item ">
 
-                    </li>
+                   ` </li>
                     <li class="nav-item dropdown " style="margin-right: 10px;">
 
                         <a class="nav-link dropdown-toggle" href="#" id="kegiatan-link" role="button"
@@ -47,15 +47,15 @@
                             Kegiatan KPU
                         </a>
                         <ul class="dropdown-menu dropdown-hover" data-bs-auto-close="false">
-                            <li><a class="dropdown-item" href="/kapu/kapu/kegiatan/konsolidasiPage.html">Konsolidasi</a></li>
-                            <li><a class="dropdown-item" href="/kapu/kapu/kegiatan/cariPage.html">Pencarian Paslon</a></li>
+                            <li><a class="dropdown-item" href="/kapu/kapu/kegiatan/KonsolidasiPage.html">Konsolidasi</a></li>
+                            <li><a class="dropdown-item" href="/kapu/kapu/kegiatan/CariPage.html">Pencarian Paslon</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/pelatihanPage.html">Pelatihan Paslon</a></li>
-                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/kampanyePage.html">Kampanye Bebas</a></li>
-                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/debatPage.html">Debat Paslon</a></li>
-                            <li><a class="dropdown-item disabled" href="/kapu/kapu/pemilihan/pemilihanPage.html">Pemilu Raya</a></li>
+                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/PelatihanPage.html">Pelatihan Paslon</a></li>
+                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/KampanyePage.html">Kampanye Bebas</a></li>
+                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/DebatPage.html">Debat Paslon</a></li>
+                            <li><a class="dropdown-item disabled" href="/kapu/kapu/kegiatan/PemilihanPage.html">Pemilu Raya</a></li>
                         
                         </ul>
                     </li>
@@ -63,14 +63,24 @@
                         <a class="nav-link" href="/kapu/kapu/kalender/kalender2.html" id="kalender-link" title="Click to see KPU activities">Kalender
                             Kegiatan</a>
                     </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="#" id="kalender-link" title="Click to see about us">About us
+                            </a>
+                    </li>
                     <li class="nav-item " style="margin-right: 10px;">
+                        <!--if logged in route to /kapu/kapu/pemilihan/PemilihanPage.html
+                        not logged in route to /kapu/kapu/login/Login.html either new or old
+                        -->
                         <a class="nav-link" href="/kapu/kapu/pemilihan/pemilihanPage.html" id="pemilihan-link" title="Click to see Election">Pemilihan</a>
                     </li>
                     <li class="nav-item " style="margin-right: 20px;">
                         <a class="nav-link" href="#" id="contact-link" title="Click to see Contact Person">Contact</a>
                     </li>
                     <li class="nav-item" style="margin-right: 15px;">
-                        <a class="nav-link" href="#" id="login-link" title="Login">Login</a>
+                        <!--if logged in route to /kapu/kapu/profile/Profile.html
+                        not logged in route to /kapu/kapu/login/Login.html either new or old
+                        -->
+                        <a class="nav-link" href="/kapu/kapu/profile/Profile.html" id="login-link" title="Login">Profile</a>
                     </li>
                 </ul>
 

@@ -87,6 +87,11 @@ video {
     vertical-align: baseline;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -139,8 +144,8 @@ table {
 body {
     background-color: var(--bgColor);
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -262,16 +267,18 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
 }
-style.css
-*{
+
+style.css * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #fcfcfc;
 }
-footer{
+
+footer {
     position: absolute;
     bottom: 110;
     left: 0;
@@ -284,7 +291,8 @@ footer{
     color: #fff;
     margin-top: 50px;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,53 +300,62 @@ footer{
     text-align: center;
     height: 150px;
 }
-.footer-content h3{
+
+.footer-content h3 {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 1.5rem;
 }
-.footer-content p{
+
+.footer-content p {
     max-width: 500px;
     margin: 8px auto;
     line-height: 20px;
     font-size: 14px;
 }
-.socials{
+
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.socials li{
+
+.socials li {
     margin: 0 10px;
 }
-.socials a{
+
+.socials a {
     text-decoration: none;
     color: #fff;
 }
-.socials a i{
+
+.socials a i {
     font-size: 1.1rem;
     transition: color .4s ease;
 
 }
-.socials a:hover i{
+
+.socials a:hover i {
     color: aqua;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #000;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
-.footer-bottom span{
+
+.footer-bottom span {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
