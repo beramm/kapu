@@ -283,12 +283,12 @@ footer {
     bottom: 110;
     left: 0;
     right: 0;
-    background: #111;
+    background: rgb(214, 214, 214);
     height: auto;
     width: 100vw;
     font-family: "Open Sans";
     padding-top: 20px;
-    color: #fff;
+    color: #424242;
     margin-top: 50px;
 }
 
@@ -329,7 +329,7 @@ footer {
 
 .socials a {
     text-decoration: none;
-    color: #fff;
+    color: #424242;
 }
 
 .socials a i {
